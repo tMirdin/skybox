@@ -1,0 +1,215 @@
+/* Второй способ подключения шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:wght@300;400;500;900&display=swap');
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* --------------------HEADER START---------------- */
+  
+  nav {
+    display: inline;
+    margin-left: 282px;
+    margin-right: 116px;
+  }
+  
+  header {
+    padding-left: 240px;
+    padding-top: 65px;
+  }
+  
+  header div {
+    display: inline;
+  }
+  #bg-1 {
+    background-image: url(../images/BG.png);
+    height: 1050px;
+  }
+  .logo {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: "Comfortaa", cursive;
+    font-weight: bold;
+  }
+  nav span {
+    color: #ffffff;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 69px;
+  }
+
+  nav span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  #btn-login {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    background: none;
+    border: none;
+    margin-right: 38px;
+  }
+  #btn-sign-up {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #bb6df3;
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+
+  #btn-sign-up:hover{
+    background-color: #e0dcdc;
+  }
+
+  /* -----------------------HEADER FINISH-------------------- */
+
+  /* -----------------------SECTION-1 START */
+
+  .section-1 {
+    padding-left: 240px;
+    padding-top: 180px;
+    display: flex;
+  }
+ 
+  .section-1Right h1 {
+    color: #3b668d;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 70px;
+    text-transform: uppercase;
+  }
+  
+  .section-1Right span{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.905em;
+    color: #3B668D;
+  }
+
+  .section-1Right hr{
+    background-color: #3B668D;
+    height: 2px;
+    margin-top: 32px;
+    border: none;
+  }
+
+  .section-1Right h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: #3B668D;
+    margin-top: 45px;
+  }
+
+  .section-1Right p{
+    width: 496px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.075em;
+    color: #2B4964;
+    margin-top: 13px;
+    line-height: 156%;
+  }
+
+  .section-1Right button{
+    background: linear-gradient(90deg, #5AC4FF 0%, #B250FF 100%);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 62px;
+    border: none;
+    width: 308px;
+    height: 79px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 51px;
+    padding: 0;
+  }
+
+  .section-1Right button:hover{
+    background: linear-gradient(90deg, #43b9f8 0%, #9c25f7 100%);
+  }
+
+    #img-1 {
+      width: 815px;
+    }
+
+  /* SECTION-1 FINISH */
+
+  /* SECTION-2 START */
+  .section-2__left{
+    width: 900px;
+    height: 1000px;
+    background-image: url(../images/section-2-BG.png);
+    background-size: cover;
+  }
+
+  .right__blocks{
+    width: 557px;
+    height: 217px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .right__blocks:hover{
+    box-shadow: 0px 0px 18px 0px rgba(34, 60, 80, 0.2);
+  }
+
+  .block__bg-icon{
+    background-image: url(../images/sec-2BGIcon.png);
+    width: 93px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block__description{
+    width: 438px;
+  }
+
+  .block__description span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    color: #3B668D;
+  }
+
+  .block__description p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B4964;
+  }
+
+  .section-2{
+    display: flex;
+  }
+
+  .section-2__right{
+    padding-top: 91px;
+  }
+
+ 
